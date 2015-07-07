@@ -1,0 +1,50 @@
+/* main.css */
+.whole_page {
+font-family:"Helvetica";
+text-align:center;
+}
+
+.home_header {
+width:700px;
+height:150px;
+padding-top:25px;
+margin-left:auto;
+margin-right:auto;
+color:#484848;
+/*
+border-width:thin;
+border-color:#D0D0D0;
+border-style:solid;
+*/
+}
+
+.home_body {
+width:700px;
+height:auto;
+text-align:left;
+margin-left:auto;
+margin-right:auto;
+/*
+border-width:thin;
+border-width:thin;
+border-color:#D0D0D0;
+border-style:solid;
+*/
+}
+
+.border {
+/*
+border-width:thin;
+border-color:#D0D0D0;
+border-style:solid;
+*/
+}
+
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link, a:visited:active {
+    color: inherit;
+}

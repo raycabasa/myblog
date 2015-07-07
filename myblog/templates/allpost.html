@@ -1,0 +1,8 @@
+{% extends "home.html" %}
+
+{% block body %}
+    {% for article in articles %}
+        <a href="/"><h1 class="border">{{ article.title }}</h1></a>
+    {% endfor %}
+{% endblock %}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>{% block title %}myblog{% endblock %}</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'myblog/main.css' %}"/>
+</head>
+<body class="whole_page">
+    {% block body %}
+    <div class="home_header">
+        <h1 class="border">{{ article.title }}</h1>
+        <p class="border">by: {{ article.author }}</p>
+    </div>
+    <div class="home_body">
+        <p>{{ article.body }}</p>
+    </div>
+    <div>
+        <a href="/allpost/"><p>See all post</p></a>
+    </div>
+    {% endblock %}
+</body>
+</html>
